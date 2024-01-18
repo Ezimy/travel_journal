@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  flex-shrink: 0;
+}
+body{
+  font-family: 'Inter', sans-serif;
+}
+header{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 3.4375rem;
+  background: #F55A5A;
+  gap: 0.25rem;
+}
+header > h1{
+  color: #FFF;
+  font-size: 0.90381rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+letter-spacing: -0.06781rem;
+}
+header > img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
