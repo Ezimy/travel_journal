@@ -4,7 +4,7 @@
   flex-shrink: 0;
 }
 body{
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif; 
 }
 header{
   align-items: center;
@@ -21,9 +21,59 @@ header > h1{
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-letter-spacing: -0.06781rem;
+  letter-spacing: -0.06781rem;
 }
 header > img {
   width: 1.5rem;
   height: 1.5rem;
+}
+.cards-list{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding: 2.5rem 0;
+}
+.card{
+  display: flex;
+  gap: 1rem;
+  border-bottom: 0.0625rem solid #F5F5F5;
+  width: 29.875rem;
+  padding: 1rem 0;
+}
+.card > .card-img {
+  width: 7.8125rem;
+  height: 10.5rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+}
+.location-details{
+  display: flex;
+  align-items: center;
+}
+.location-details >.location-icon{
+  width: 0.4375rem;
+  height: 0.59656rem;
+  margin-right: 0.25rem;
+}
+.location-details > h3 {
+  color: #2B283A;
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.10881rem;
+}
+.location-details > a {
+  margin-left: 0.75rem;
+  color: #918E9B;
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.card-details > p {
+  font-size: 0.64rem;
+  max-width: 20.375rem;
 }
